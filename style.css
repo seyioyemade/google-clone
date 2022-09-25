@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* padding: 20px; */
+  font-size: 16px;
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+nav{
+  padding: 20px; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a{
+  color: black;
+  
+}
+
+a{
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  list-style: none;
+}
+
+li a{
+
+  color: rgba(53, 53, 53, 0.76);
+}
+
+li:first-child>a {
+  margin: 0;
+}
+
+
+
+input{
+
+  margin: 20px 0 30px 0;
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  padding:0 20px;
+  border: 1px solid rgb(206, 206, 206);
+
+}
+
+input:focus{
+  outline: 1px solid rgb(235, 235, 235);
+}
+
+button{
+  padding: 12px 17px;
+  background-color: rgba(218, 218, 218, 0.199);
+  border: 0;
+  border-radius: 2px;
+  margin:0 0 30px 5px;
+  cursor: pointer;
+}
+
+
+footer{
+  margin-top: auto;
+  background-color:rgba(218, 218, 218, 0.199); ;
+  
+}
+
+footer div{
+  padding: 15px 25px;
+}
+
+.secondFooter{
+  display: flex;
+  /* width: 100%; */
+  border-top: 1px solid rgb(206, 206, 206) ;
+}
+
+
+footer li{
+  display: inline;
+}
+
+.about{
+  flex-grow: 1;
+
+}
+
+
+.about+a{
+  flex-grow: 5;
+  text-align: center;
+
+}
+
+.privacy{
+  flex-grow: 4;
+  text-align: right;
+  
+
+}
